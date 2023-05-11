@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg1 {
+    background-image: url(resimler/ocean-1867285__340.jpg);
+    width: 100%;
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 0;
+}
+
+.div1 {
+    z-index: -1;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.div1 h1 {
+    font-size: 70px;
+    display: inline;
+    font-weight: bold;
+    color: beige;
+}
+
+.div1 p {
+    font-size: 30px;
+    margin-top: 15px;
+    color: beige;
+}
+
+.a1:link,
+.a1:visited {
+    background-color: hsl(230, 59%, 28%);
+    list-style-type: none;
+    align-items: center;
+    width: 150px;
+    margin-left: 45%;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: beige;
+    font-size: 16px;
+    padding: 30px 1%;
+    display: block;
+    font-weight: bold;
+
+}
+
+.a1:hover,
+.a1:active {
+    background-color: hsl(210, 15%, 57%);
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+}
+
+.i1 {
+    background-color: black;
+    opacity: 0.4;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    border-radius: 5px;
+}
+
+.a2 .i1 i {
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+    font-size: 20px;
+    color: beige
+}
+
+.a2:hover .i1 {
+    opacity: 0.8;
+}
+
+.div2 {
+    z-index: -1;
+    background-color: beige;
+    width: 100%;
+    height: 220px;
+    position: relative;
+}
+
+.div2 h1 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    display: inline;
+    margin-left: 41%;
+    padding-top: 130px;
+    color: rgb(0, 0, 48);
+}
+
+.div2 p {
+    position: absolute;
+    display: inline;
+    margin-top: 118px;
+    margin-left: 47%;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(163, 93, 70);
+
+}
+
+.div3 {
+    background-image: url(resimler/portfolio-1.jpg);
+    width: 470px;
+    height: 360px;
+    display: inline-block;
+    background-size: co;
+}
+
+.div3:hover {
+    transition: 0.5s;
+    transform: scale(0.9);
+    opacity: 0.7;
+}
+
+.div4 {
+    background-image: url(resimler/portfolio-2.jpg);
+    width: 470px;
+    height: 360px;
+    display: inline-block;
+}
+
+.div4:hover {
+    transition: 0.5s;
+    transform: scale(0.9);
+    opacity: 0.7;
+}
+
+.div5 {
+    display: inline-block;
+    background-image: url(resimler/portfolio-3.jpg);
+    width: 470px;
+    height: 360px;
+}
+
+.div5:hover {
+    transition: 0.5s;
+    transform: scale(0.90);
+    opacity: 0.7;
+}
+
+.div6 {
+    display: inline-block;
+    background-image: url(resimler/portfolio-4.jpg);
+    width: 470px;
+    height: 360px;
+}
+
+.div6:hover {
+    transition: 0.5s;
+    transform: scale(0.90);
+    opacity: 0.7;
+}
+
+.div34 {
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.div56 {
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
